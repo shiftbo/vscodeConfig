@@ -14,10 +14,8 @@
         "comments": true,
         "strings": true
     },
-    "workbench.colorTheme": "Darcula Theme from IntelliJ", //指定工作台中使用的颜色主题
-    "window.zoomLevel": 0, // 调整窗口的缩放级别
-    "editor.tabSize": 2, //制表符符号eslint
-    "editor.formatOnSave": true, // 每次保存的时候将代码按eslint格式进行修复
+    "workbench.colorTheme": "Quiet Light", //指定工作台中使用的颜色主题
+    "window.zoomLevel": 0, //制表符符号eslint
     "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
     "prettier.semi": false, //去掉代码结尾的分号
     "prettier.singleQuote": true, //使用带引号替代双引号
@@ -29,9 +27,9 @@
             "wrap_attributes": "force-aligned" //属性强制折行对齐
         }
     },
-    "eslint.validate": [ //开启对.vue文件中错误的检查
+    "eslint.validate": [
+        //开启对.vue文件中错误的检查
         "javascript",
-        "javascriptreact",
         {
             "language": "html",
             "autoFix": true
@@ -42,4 +40,9 @@
         }
     ],
     "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.codeAction.disableRuleComment": {},
+    "editor.tabSize": 2,
 }
