@@ -1,6 +1,7 @@
-Chinese Language
-ESlint
-Live Server
-Material Icon Theme
-Simple React Snippets
-Vetur
+Chinese Language //中文服务
+ESlint //代码检测
+Live Server //虚拟服务器
+Material Icon Theme //图标
+Simple React Snippets //react代码段
+Vetur //格式化代码
+REST Client //模拟http请求
